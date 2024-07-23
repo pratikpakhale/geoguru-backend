@@ -1,0 +1,730 @@
+[
+  {
+    "time": "00:21",
+    "caption": "I am Dr. Eswar working as assistant professor in the department of civil"
+  },
+  {
+    "time": "00:24",
+    "caption": "engineering and also associated with the interdisciplinary program on climate studies"
+  },
+  {
+    "time": "00:29",
+    "caption": "at Indian Institute of Technology Bombay. So, what are we going to see in this course?"
+  },
+  {
+    "time": "00:34",
+    "caption": "Remote sensing is a fast emerging technology in the last few decades, it has grown tremendously."
+  },
+  {
+    "time": "00:40",
+    "caption": "In this particular course we are going to see what are the basic physical principles behind remote"
+  },
+  {
+    "time": "00:46",
+    "caption": "sensing especially in the optical and thermal domains. We will also be able to understand the"
+  },
+  {
+    "time": "00:53",
+    "caption": "different terminologies associated with remote sensing, what are the different satellite data"
+  },
+  {
+    "time": "00:58",
+    "caption": "sets available to us and what those satellite data sets contain and finally we will also get to know"
+  },
+  {
+    "time": "01:05",
+    "caption": "or get introduced to few applications of remote sensing at the end of this course."
+  },
+  {
+    "time": "01:11",
+    "caption": "So, even though this lectures will be as self-contained as possible for your own"
+  },
+  {
+    "time": "01:16",
+    "caption": "understanding and appreciation I would suggest few text books for you all to go through. Like"
+  },
+  {
+    "time": "01:21",
+    "caption": "some of the textbooks are Remote sensing of the environment an Earth Resource Perspective by"
+  },
+  {
+    "time": "01:27",
+    "caption": "John Jensen, the classical textbook remote sensing and image interpretation by Lillesand and Kiefer,"
+  },
+  {
+    "time": "01:34",
+    "caption": "physical principles of remote sensing by W.G Rees"
+  },
+  {
+    "time": "01:37",
+    "caption": "and the fundamentals of remote sensing by Dr. Joseph and Jeganathan."
+  },
+  {
+    "time": "01:43",
+    "caption": "So, if you want to get like a basic introduction to the concepts"
+  },
+  {
+    "time": "01:47",
+    "caption": "then the textbook by Lillesand and Kiefer and Jensen would be like the best suggested ones."
+  },
+  {
+    "time": "01:52",
+    "caption": "If you want to understand the physical principles or go little bit deeper into"
+  },
+  {
+    "time": "01:56",
+    "caption": "the concepts I would suggest you to look at the textbooks by Joseph and Jeganathan and W. G Rees."
+  },
+  {
+    "time": "02:03",
+    "caption": "What exactly remote sensing is? Normally when we look at our newspapers we will see like"
+  },
+  {
+    "time": "02:09",
+    "caption": "this is the image the cloud image for today or in TV they will say like they will show an image"
+  },
+  {
+    "time": "02:14",
+    "caption": "like a India map and they will tell okay a cyclone is approaching, the cyclone is headed towards"
+  },
+  {
+    "time": "02:20",
+    "caption": "Vizag coast, the cyclone is headed towards Odisha. All these things they will say."
+  },
+  {
+    "time": "02:25",
+    "caption": "And we will be like recognizing it as a satellite image, that is true it is like a satellite image"
+  },
+  {
+    "time": "02:30",
+    "caption": "processed to some degree. So, just by looking at the image what we will be able to do,"
+  },
+  {
+    "time": "02:36",
+    "caption": "we will see okay there is a cyclone here and the path of the cyclone is moving like this,"
+  },
+  {
+    "time": "02:40",
+    "caption": "all such information we will get by seeing those images taken from the satellites."
+  },
+  {
+    "time": "02:45",
+    "caption": "Exactly that is what remote sensing is as a basic definition."
+  },
+  {
+    "time": "02:49",
+    "caption": "So, remote sensing is a technology in which"
+  },
+  {
+    "time": "02:52",
+    "caption": "we obtain information about some feature or a phenomenon on the earth surface"
+  },
+  {
+    "time": "02:58",
+    "caption": "through data collection and analysis in which the data is collected in a non-contact manner"
+  },
+  {
+    "time": "03:05",
+    "caption": "or without being in physical contact with the object of our interest."
+  },
+  {
+    "time": "03:10",
+    "caption": "So, one of the best example of remote sensing what we do in normal life is our own vision."
+  },
+  {
+    "time": "03:16",
+    "caption": "Like whatever objects we see, we see the objects from a distance. We use the natural light coming"
+  },
+  {
+    "time": "03:22",
+    "caption": "from the sun or we use some artificial light source like bulbs or something, which falls on the"
+  },
+  {
+    "time": "03:26",
+    "caption": "object and the object will reflect light and our eyes will receive it and we will see okay there"
+  },
+  {
+    "time": "03:32",
+    "caption": "is a table in front of me, the door is in that direction I should enter through the door. So,"
+  },
+  {
+    "time": "03:37",
+    "caption": "all these kinds of processing we do unknowingly through the data we collected through our eyes."
+  },
+  {
+    "time": "03:43",
+    "caption": "So, our eyes act as a sensor in that sense and our brain is the data processor. So, remote sensing"
+  },
+  {
+    "time": "03:49",
+    "caption": "is essentially a data acquisition technology which we can use for various applications."
+  },
+  {
+    "time": "03:56",
+    "caption": "As I said before remote sensing occurs in nature itself,"
+  },
+  {
+    "time": "04:01",
+    "caption": "the process of human vision not only human the vision of all animals"
+  },
+  {
+    "time": "04:05",
+    "caption": "is exactly is an example for remote sensing, whatever we see we see it from a distance."
+  },
+  {
+    "time": "04:11",
+    "caption": "The sound we hear say for example if a baby is sleeping in the"
+  },
+  {
+    "time": "04:17",
+    "caption": "bedroom and we are sitting in the living room if the baby suddenly wakes up and cries"
+  },
+  {
+    "time": "04:21",
+    "caption": "we hear it from a distance and we enter the room take the baby and pat it. So, this"
+  },
+  {
+    "time": "04:26",
+    "caption": "information collection okay the baby has woken up and it is like crying now, that information"
+  },
+  {
+    "time": "04:31",
+    "caption": "collection happens remotely. So, the process of our hearing is an example for remote sensing."
+  },
+  {
+    "time": "04:37",
+    "caption": "So, not only this like even bats when they fly they avoid obstacles by sending ultrasonic waves"
+  },
+  {
+    "time": "04:45",
+    "caption": "and hearing the reflection back they avoid obstacles and move away from it."
+  },
+  {
+    "time": "04:50",
+    "caption": "These are all examples of remote sensing which occurs in nature. So, the technology that we are"
+  },
+  {
+    "time": "04:55",
+    "caption": "going to learn in this course is an extension of this natural process to study earth and various"
+  },
+  {
+    "time": "05:01",
+    "caption": "features associated with earth. Truly speaking remote sensing is not restricted only to earth,"
+  },
+  {
+    "time": "05:08",
+    "caption": "remote sensing can be carried out in even in like for planets and solar system and far beyond."
+  },
+  {
+    "time": "05:14",
+    "caption": "People are doing it. But in this particular course we will be concentrating on remote sensing of"
+  },
+  {
+    "time": "05:20",
+    "caption": "earth's surface and its applications. We won’t be looking on remote sensing of other planets."
+  },
+  {
+    "time": "05:25",
+    "caption": "So, this is a typical remote sensing system. So, what a remote sensing system consists of?"
+  },
+  {
+    "time": "05:31",
+    "caption": "We will always take an analogy with the process of human vision and then we will learn this. So,"
+  },
+  {
+    "time": "05:38",
+    "caption": "for remote sensing to occur, first there should be an object of interest. Let us say"
+  },
+  {
+    "time": "05:44",
+    "caption": "the object of interest here is marked as point C,"
+  },
+  {
+    "time": "05:48",
+    "caption": "this is the object of our interest. So, in order for us to see that particular"
+  },
+  {
+    "time": "05:53",
+    "caption": "object we need some light source. And that light source during day time it is the sun"
+  },
+  {
+    "time": "05:58",
+    "caption": "or if we are within our rooms it is the bulbs that we use. So, we need a source of energy that"
+  },
+  {
+    "time": "06:05",
+    "caption": "gives that transmits energy towards the object of interest ok. So, this is the object of interest."
+  },
+  {
+    "time": "06:17",
+    "caption": "What happens then, the source of energy transmits some energy towards the object,"
+  },
+  {
+    "time": "06:22",
+    "caption": "it gets reflected by the object of interest and come towards the sensor."
+  },
+  {
+    "time": "06:26",
+    "caption": "Say if you take analogy of human vision the sensor is eye, our human eyes or if you take"
+  },
+  {
+    "time": "06:32",
+    "caption": "our normal remote sensing the sensor is the sensor located in a satellite. So, this energy"
+  },
+  {
+    "time": "06:38",
+    "caption": "is reflected back or emitted whatever we will see it later these terms in detail."
+  },
+  {
+    "time": "06:43",
+    "caption": "So, the reflected energy goes towards the sensor and the sensor collects it."
+  },
+  {
+    "time": "06:48",
+    "caption": "So, now the sensor will transmit the data back to earth. So, this is known as data transmission"
+  },
+  {
+    "time": "06:57",
+    "caption": "and this transmitted data will be stored most likely in form of images most likely like"
+  },
+  {
+    "time": "07:05",
+    "caption": "there are other ways of processing and storing remote sensing data but mostly we are used to"
+  },
+  {
+    "time": "07:10",
+    "caption": "seeing satellite images and working with it and the final step is application of this data."
+  },
+  {
+    "time": "07:22",
+    "caption": "So, I just go back to the previous slide. The object of interest is here and sun is there to"
+  },
+  {
+    "time": "07:30",
+    "caption": "provide energy. Our eye acts as the sensor so, the brain acts as the data processor and then"
+  },
+  {
+    "time": "07:41",
+    "caption": "our brain takes decision based on whatever happens. So, the data transmission happens"
+  },
+  {
+    "time": "07:46",
+    "caption": "in this particular way like between the eyes and the brain the data transmission occurs. So, this"
+  },
+  {
+    "time": "07:52",
+    "caption": "is like a very simple analogy of remote sensing that, what we do with the help of satellites."
+  },
+  {
+    "time": "07:59",
+    "caption": "And this particular energy what the source of energy sends us or which carries the signal"
+  },
+  {
+    "time": "08:06",
+    "caption": "we call it as medium, medium that carries the signal. So, this particular medium like"
+  },
+  {
+    "time": "08:18",
+    "caption": "after the energy being reflected by the object it carries the signal and it reaches our eyes."
+  },
+  {
+    "time": "08:26",
+    "caption": "So, basically if an object is appearing green what the object is doing, whatever the sunlight"
+  },
+  {
+    "time": "08:31",
+    "caption": "comes in it is absorbing all other energy other than green and only green is reflected back."
+  },
+  {
+    "time": "08:37",
+    "caption": "So, this particular object is reflecting green color and it is absorbing all other color light"
+  },
+  {
+    "time": "08:45",
+    "caption": "that is coming from the sun and that is why we are seeing that particular object as green. If an"
+  },
+  {
+    "time": "08:50",
+    "caption": "object appears white to our eyes it is reflecting almost all the colors from the sun equally. That"
+  },
+  {
+    "time": "08:56",
+    "caption": "particular objects will appear white to our eyes something like that. So, the basic remote sensing"
+  },
+  {
+    "time": "09:01",
+    "caption": "that we do with respect to satellites has a very good analogy with the process of human vision."
+  },
+  {
+    "time": "09:08",
+    "caption": "What are the advantages of remote sensing?"
+  },
+  {
+    "time": "09:11",
+    "caption": "First of all remote sensing is a non-contact and non-intrusive way of data collection,"
+  },
+  {
+    "time": "09:18",
+    "caption": "that is as I said in the definition itself remote sensing is a non-contact way of data collection,"
+  },
+  {
+    "time": "09:25",
+    "caption": "being non-contact we would not be disturbing the object or feature of our interest. So,"
+  },
+  {
+    "time": "09:31",
+    "caption": "if I want to collect data about some object I need not go, touch the object or disturb the object."
+  },
+  {
+    "time": "09:36",
+    "caption": "So, from a distance I can collect the data that is non-contact and non-intrusive."
+  },
+  {
+    "time": "09:41",
+    "caption": "In addition to this being non-contact way of data collection, it provides access to almost"
+  },
+  {
+    "time": "09:48",
+    "caption": "all points on the earth surface where we cannot physically enter. That is say like we are going"
+  },
+  {
+    "time": "09:54",
+    "caption": "to see a hurricane and track how the hurricane is going to progress, where it is going to change"
+  },
+  {
+    "time": "10:00",
+    "caption": "direction, we cannot go and collect data within a hurricane itself, it is like highly risky."
+  },
+  {
+    "time": "10:06",
+    "caption": "So, what we can do, we can collect data from satellites, safely sitting from the"
+  },
+  {
+    "time": "10:10",
+    "caption": "satellite control centre, process the data and collect more information about the hurricanes,"
+  },
+  {
+    "time": "10:15",
+    "caption": "that is possible. So, the first major advantage that is non-intrusive which won’t disturb the"
+  },
+  {
+    "time": "10:21",
+    "caption": "object of our interest and then it provides access to almost all points on the earth's surface."
+  },
+  {
+    "time": "10:28",
+    "caption": "Then remote sensing provides repeated data. Like the data collected over a particular region"
+  },
+  {
+    "time": "10:36",
+    "caption": "can be collected again and again based on our needs which will tell us how that particular"
+  },
+  {
+    "time": "10:42",
+    "caption": "object or phenomenon is changing with time. Say for example one of the major applications"
+  },
+  {
+    "time": "10:47",
+    "caption": "of remote sensing is agriculture. So, for agriculture we all know crops has a sowing date,"
+  },
+  {
+    "time": "10:53",
+    "caption": "crops will grow, crops will finally like reach the harvest stage, people will harvest it,"
+  },
+  {
+    "time": "10:59",
+    "caption": "then everything will be removed from that particular parcel of agriculture land."
+  },
+  {
+    "time": "11:02",
+    "caption": "So, crops follow a physical phenological cycle right from sowing date to harvest date."
+  },
+  {
+    "time": "11:09",
+    "caption": "So, as the plant grows the signal emitted by the plant will be different and just by seeing this"
+  },
+  {
+    "time": "11:16",
+    "caption": "change in signal we will be able to understand what is the condition of the plant, whether it is"
+  },
+  {
+    "time": "11:21",
+    "caption": "growing good or not. So, the temporal evolution of the crop cycle can be steady by taking"
+  },
+  {
+    "time": "11:27",
+    "caption": "multiple images at different times in between the phenological cycle."
+  },
+  {
+    "time": "11:32",
+    "caption": "So, the repeated information provided by remote sensing offers us to study"
+  },
+  {
+    "time": "11:36",
+    "caption": "how the object or the phenomenon of our interest evolves with time. The"
+  },
+  {
+    "time": "11:43",
+    "caption": "next major advantage of remote sensing is synoptic coverage, that is it provides a"
+  },
+  {
+    "time": "11:49",
+    "caption": "glance of a large portion of earth's surface in a single instance. This is really"
+  },
+  {
+    "time": "11:55",
+    "caption": "necessary for people who works on meteorological applications, they want to track cloud movements."
+  },
+  {
+    "time": "12:00",
+    "caption": "They want to track hurricane moments, they want to track how dust storm is moving,"
+  },
+  {
+    "time": "12:05",
+    "caption": "normally like dust storm from Sahara desert will move to South America, or"
+  },
+  {
+    "time": "12:14",
+    "caption": "normally we see like the smog coming in from stubble burning it will reach the next states"
+  },
+  {
+    "time": "12:20",
+    "caption": "and it will affect people over there. This is like every year it is occurring in India also."
+  },
+  {
+    "time": "12:24",
+    "caption": "So, for such studies we need to look at a much larger area, much larger than whatever eyes"
+  },
+  {
+    "time": "12:31",
+    "caption": "can see or what we can like sense by our local means. So, that is called synoptic coverage. So,"
+  },
+  {
+    "time": "12:37",
+    "caption": "remote sensing satellite image can provide you coverage of entire country, entire state or entire"
+  },
+  {
+    "time": "12:45",
+    "caption": "continent sometimes even the entire globe depends on where the satellite is located. That kind of"
+  },
+  {
+    "time": "12:50",
+    "caption": "synoptic coverage will help you to understand the phenomenon in a much more clearer way."
+  },
+  {
+    "time": "12:55",
+    "caption": "Then next major advantage is remote sensing provides global or regional coverage,"
+  },
+  {
+    "time": "13:02",
+    "caption": "most of the satellites are put in orbits to either look at the same area again and again continuously"
+  },
+  {
+    "time": "13:09",
+    "caption": "or to cover the entire globe by taking images"
+  },
+  {
+    "time": "13:13",
+    "caption": "repeatedly at different portions. So, either based on the satellite orbits"
+  },
+  {
+    "time": "13:17",
+    "caption": "you will be seeing the same area continuously or you will be able to cover the entire globe."
+  },
+  {
+    "time": "13:22",
+    "caption": "So, it provides a regional level or a global coverage which will be helpful for"
+  },
+  {
+    "time": "13:28",
+    "caption": "various applications. Then the most critical thing what I will say as the advantage is remote sensing"
+  },
+  {
+    "time": "13:35",
+    "caption": "enables us to see the object in different portions of the energy band which human eyes cannot see."
+  },
+  {
+    "time": "13:44",
+    "caption": "See when I talked about the human analogy of remote sensing I said like okay what color"
+  },
+  {
+    "time": "13:50",
+    "caption": "the object reflects, it will be our eyes will perceive the object in that particular color."
+  },
+  {
+    "time": "13:55",
+    "caption": "Say if in a green object it is reflecting only the green energy our eyes can only see green. So,"
+  },
+  {
+    "time": "14:01",
+    "caption": "what essentially happens is our eyes are tuned to the white light that comes from"
+  },
+  {
+    "time": "14:06",
+    "caption": "the sun. Whatever energy coming within that particular energy level our eyes can sense."
+  },
+  {
+    "time": "14:11",
+    "caption": "But sun is a good source of energy in different portions of electromagnetic spectrum,"
+  },
+  {
+    "time": "14:17",
+    "caption": "we will see what electromagnetic spectrum in the later classes."
+  },
+  {
+    "time": "14:20",
+    "caption": "So, sun provides energy in the very large portion of electromagnetic spectrum and each object"
+  },
+  {
+    "time": "14:26",
+    "caption": "will behave differently in different portion of this incoming energy which our eyes cannot see."
+  },
+  {
+    "time": "14:32",
+    "caption": "So, remote sensing through the use of different sensors or different detector elements helps us"
+  },
+  {
+    "time": "14:38",
+    "caption": "to see the same object in different different way by helping us to see in different bands of energy."
+  },
+  {
+    "time": "14:45",
+    "caption": "So, this kind of multi-spectral information we call this as multispectral information."
+  },
+  {
+    "time": "14:51",
+    "caption": "So, this multispectral information helps us to"
+  },
+  {
+    "time": "14:56",
+    "caption": "understand that particular object in a much more detailed manner than what our eyes can see."
+  },
+  {
+    "time": "15:04",
+    "caption": "So, a very good example of how multispectral remote sensing will help us is given here."
+  },
+  {
+    "time": "15:11",
+    "caption": "So, this particular image is taken over United States by a sensor called MODIS,"
+  },
+  {
+    "time": "15:19",
+    "caption": "this is like a remote sensing sensor in 2 different satellites."
+  },
+  {
+    "time": "15:23",
+    "caption": "So, what these bands essentially mean? These bands essentially mean different portions of the"
+  },
+  {
+    "time": "15:30",
+    "caption": "energy spectrum that is coming from the sun. Like what our eyes can see is very small amount of"
+  },
+  {
+    "time": "15:36",
+    "caption": "energy from the sun. But sun is giving energy in many different portions of the spectrum."
+  },
+  {
+    "time": "15:42",
+    "caption": "So, each band is a one small portion of spectrum."
+  },
+  {
+    "time": "15:45",
+    "caption": "So, the same area imaged by a sun sensor in space will give us a completely different"
+  },
+  {
+    "time": "15:51",
+    "caption": "look of the land surface. Say band 2 we can see the land surface primarily here."
+  },
+  {
+    "time": "15:58",
+    "caption": "Band 6 we can see, band 26 land is not visible but we are seeing this cloud patches very clearly like"
+  },
+  {
+    "time": "16:05",
+    "caption": "here this cloud patch is not visible in band 2. Here it is very much visible, whereas in band 27"
+  },
+  {
+    "time": "16:13",
+    "caption": "whatever we are seeing entirely is whatever is present in the atmosphere and we are not"
+  },
+  {
+    "time": "16:18",
+    "caption": "seeing anything related to ground. So, same area same sensor but by looking in different,"
+  },
+  {
+    "time": "16:25",
+    "caption": "different portions of energy we are getting different information. In band 2 and band 6 we"
+  },
+  {
+    "time": "16:30",
+    "caption": "are getting information about the ground surface. In band 26 we are able to see some clouds."
+  },
+  {
+    "time": "16:34",
+    "caption": "In band 27 we are seeing or getting information about the atmosphere. So, this sort of"
+  },
+  {
+    "time": "16:40",
+    "caption": "multi-spectral information will provide us many different ideas about the object of our interest."
+  },
+  {
+    "time": "16:48",
+    "caption": "So, this is another example of how multispectral information will help us. Again this is like same"
+  },
+  {
+    "time": "16:57",
+    "caption": "area covered by a sensor called thematic mapper, this sensor is in a satellite called landsat."
+  },
+  {
+    "time": "17:11",
+    "caption": "So, again this is band means different portions of energy."
+  },
+  {
+    "time": "17:17",
+    "caption": "So, what happens in this particular band 1? what are we seeing? we are seeing like 2 reservoirs."
+  },
+  {
+    "time": "17:24",
+    "caption": "The reservoirs appear a little bit brighter, some land surface. Band 2 it appears bit darker."
+  },
+  {
+    "time": "17:31",
+    "caption": "If you look at band 4 we are able to clearly see the reservoir in a much"
+  },
+  {
+    "time": "17:35",
+    "caption": "darker tone. So, this is like water bodies or 2 reservoirs and this is like land surface."
+  },
+  {
+    "time": "17:52",
+    "caption": "So, essentially each band gives us different, different information about the same object of"
+  },
+  {
+    "time": "17:59",
+    "caption": "our interest. So, basically just to summarize what we have learnt in this particular lecture."
+  },
+  {
+    "time": "18:05",
+    "caption": "In this particular lecture we have learnt what remote sensing is?"
+  },
+  {
+    "time": "18:09",
+    "caption": "We have learnt what our remote sensing system comprises of and then we have learnt a remote"
+  },
+  {
+    "time": "18:16",
+    "caption": "sensing system in analogy with human mission and then we saw the advantages of remote sensing. One"
+  },
+  {
+    "time": "18:23",
+    "caption": "of the major advantages is the multispectral information provided by remote sensing data"
+  },
+  {
+    "time": "18:27",
+    "caption": "and we also saw 2 examples of what multispectral information is and how the"
+  },
+  {
+    "time": "18:34",
+    "caption": "images acquired in different portions of energy will look for the same area, thank you very much."
+  }
+]
